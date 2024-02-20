@@ -8,8 +8,8 @@ Code for the paper "Intrinsic Gaussian Vector Fields on Manifolds" by Robert-Nic
 2. `sphere_vector_kernel.py`: Implementation of vector kernels on the sphere extending `sklearn.gaussian_process.kernels.Kernel`.
 3. `sphere_vector_gp.py`: Implementation of manifold vector GPs extending `sklearn.gaussian_process.GaussianProcessRegressor`.
 4. `blender_file_generation.py`: Utility for saving outputs ready to be treated by blender.
-5. `.ipynb`:
-6. `.ipynb`:
+5. `001_gp_prior_samples`.ipynb: Generate samples from GP priors with various kernels.
+6. `002_blender_eigenvf.ipynb`: Some heat equation eigen-vector fields on the sphere.
 7. `.ipynb`:
 8. `.ipynb`:
 9. `.ipynb`:
