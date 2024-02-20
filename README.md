@@ -5,7 +5,7 @@ Code for the paper "Intrinsic Gaussian Vector Fields on Manifolds" by Robert-Nic
 * The code extends `scikit-learn`'s GP implementation. It is a bit of a hack and it is a bit messy, but it works.s A cleaner version will soon be available in the [https://github.com/GPflow/GeometricKernels/tree/main](GeometricKernels) package.
 * The ERA5 dataset is too large to be uploaded. It can be freely downloaded at
   https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-pressure-levels-monthly-means?tab=form
-  by selecting:
+  and then uploaded in the `era5` folder. One should select the options:
   * Product type -> Reanalysis
   * Variable -> U-component of wind + V-component of wind
   * Pressure level -> 500 hPa
@@ -13,7 +13,6 @@ Code for the paper "Intrinsic Gaussian Vector Fields on Manifolds" by Robert-Nic
   * Month -> all available
   * Time -> 00:00
   * Format -> NetCDF
-  It should then be uploaded in the `era5` folder.
 * The numbered scripts should be ran in order, as some generate data that is consuimed by the ones following.
 
 ## Scripts present
@@ -25,5 +24,5 @@ Code for the paper "Intrinsic Gaussian Vector Fields on Manifolds" by Robert-Nic
 6. `002_blender_eigenvf.ipynb`: Some heat equation eigen-vector fields on the sphere.
 7. `003_era5_experiments.ipynb`: Run GP experiments on the ERA5 data.
 8. `004_flat_plots.ipynb`: Shows some of the results in paper-grade quality on projected maps.
-9. `.ipynb`:
+9. `005_synthetic_experiments.ipynb`: Experiments on synthetically generated data.
 10. `006_var_div.ipynb`: Computation of variance of the divergence of various GPs.
